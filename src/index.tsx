@@ -1,8 +1,10 @@
+import './fonts.css';
+
+import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+
 import App from './App';
-import { StrictMode } from 'react';
-import './fonts.css';
 
 const root = document.getElementById('root');
 

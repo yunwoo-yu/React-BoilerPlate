@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { ExampleContainer } from './styled';
 
 const Example = () => {

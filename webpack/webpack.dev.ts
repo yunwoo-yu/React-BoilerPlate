@@ -1,8 +1,9 @@
-import { merge } from 'webpack-merge';
-import config from './webpack.config';
-import { Configuration as DevServerConfiguration } from 'webpack-dev-server';
-import { EnvironmentPlugin } from 'webpack';
 import { configDotenv } from 'dotenv';
+import { EnvironmentPlugin } from 'webpack';
+import { Configuration as DevServerConfiguration } from 'webpack-dev-server';
+import { merge } from 'webpack-merge';
+
+import config from './webpack.config';
 
 configDotenv({ path: './.env.development' });
 

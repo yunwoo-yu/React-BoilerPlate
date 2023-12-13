@@ -7,7 +7,7 @@
     "start": "serve -s dist -l 4000",
     "build:dev": "webpack --config webpack/webpack.dev.ts",
     "build:prod": "webpack --config webpack/webpack.prod.ts",
-    "lint": "eslint --fix"
+    "lint": "eslint ./src --fix"
   },
   "keywords": [],
   "author": "",
@@ -40,6 +40,8 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
     "eslint-webpack-plugin": "^4.0.1",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
     "html-loader": "^4.2.0",
