@@ -74,6 +74,13 @@ const config: Configuration = {
 				},
 			},
 			{
+				// svgr 설정
+				test: /\.svg$/,
+				issuer: /\.[jt]sx?$/,
+				use: ['@svgr/webpack'],
+			},
+			{
+				// css 최적화 (styled라 큰 의미 없음)
 				test: /\.css$/i,
 				// CSS Loader → MiniCssExtractPlugin.loader 로더를 사용해 추출
 				use: [MiniCssExtractPlugin.loader, 'css-loader'],
