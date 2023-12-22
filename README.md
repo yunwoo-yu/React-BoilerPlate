@@ -27,7 +27,9 @@
 ## Webpack Plugin + Loader List
 
 - #### Loader
-  - 
+  - babel-loader
+  - css-loader
+  - html-loader
 
 
 ## Lint 적용 플러그인 목록
